@@ -1,20 +1,21 @@
  # What is an Api? A Beginner's Guide
 
  ## 1.Introduction
- Evertime you check weather app or log into Twitter, you are using API without even knowing it.
+ Everytime you check weather app or log into Twitter, you are using API without even knowing it.
  An application Programming interface (API) is just a way for systems to talk to each other.
 
- ## 2. What Is An Api?
- Think of an API like a resturant waiter.
- - You the customer dont go to the kitchen yourself to cook.
+ ## 2. What Is An API?
+ Think of an API like a restuarant waiter.
+ - You the customer don't go to the kitchen yourself to cook.
  - You tell the waiter what you want ("I want pizza")
  - The waiter goes to the kitchen, gives your order to the chef, and brings back food.
 
- In this case the API is the waiter
+ In this case,
+ - The API is the waiter
 
- The kitchen is the system/App
+ - The kitchen is the system/App
 
- You are the user/program that needs something
+ - You are the user/program that needs something
 
  So API is the messenger that takes your  request, tells the system what to do, and brings back the result.
 
@@ -28,7 +29,7 @@
  - Your weather app is not measuring the weather itself
  - It is calling a weather API, which send it the latest temperature.
 
- ## 4. How does API work?
+ ## 4. How does an API work?
 
 How does an API work?
 
@@ -48,6 +49,7 @@ How does an API work?
 
 Example of JSON format..
 
+
 `{
   "city": "Lagos",
   "temperature": 29,
@@ -66,15 +68,26 @@ A great beginner tool is JSONPlaceholder.
 
 It’s a free fake API for testing and learning.
 
+
+
 Examples:
-```
 #### GET request - fetch posts
 curl https://jsonplaceholder.typicode.com/posts/1
 
 #### POST request - create new data
 curl -X POST https://jsonplaceholder.typicode.com/posts \
 -H "Content-Type: application/json" \
--d '{"title": "My first API call", "body": "Learning API", "userId": 1}' ```
+-d '{"title": "My first API call", "body": "Learning API", "userId": 1}' 
+
+#### PUT request - update data
+curl -X PUT https://jsonplaceholder.typicode.com/posts/1 \
+     -H "Content-Type: application/json" \
+-d '{"id": 1, "title": "Updated title", "body": "Updated body", "userId": 1}'
+
+#### DELETE  - remove data
+curl -X DELETE https://jsonplaceholder.typicode.com/posts/1
+
+These examples use JSONplaceholder, a fake API.
 
 ....
 
