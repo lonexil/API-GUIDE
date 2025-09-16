@@ -35,8 +35,8 @@
  So API is the messenger that takes your  request, tells the system what to do, and brings back the result.
 
  ## 3. What does an API do?
- - It connects two things together (like two apps talking)
- - It hides complexities (you dont see the kitchen work)
+ - It connects two things together (like two apps talking).
+ - It hides complexities (you dont see the kitchen work).
  - It then delivers the result in a format the computer understands (often JSON or XML)
 
  For example
@@ -126,9 +126,14 @@ These examples use JSONplaceholder, a fake API.
 
 - Enable innovation (developers combine APIs to create new apps).
 
-## 9. Conclusion
+## 9. Resources
+
+
+## 10. Conclusion
 
 APIs are everywhere. From checking the weather to transferring crypto, APIs quietly power the digital world.
 
 Try making your first request with a fake API like JSONPlaceholder or a real one like OpenWeather.
+
+
 
