@@ -127,6 +127,7 @@ These examples use JSONplaceholder, a fake API.
 - Enable innovation (developers combine APIs to create new apps).
 
 ## 9. Resources
+Public APIs (GitHub list) — a large curated list of free APIs from many categories.
 
 
 ## 10. Conclusion
