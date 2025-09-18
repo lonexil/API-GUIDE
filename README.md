@@ -9,8 +9,8 @@
 6. [Practicing with a Fake API](#6-practicing-with-a-fake-api)
 7. [What is an API key?](#7-what-is-an-api-key)
 8. [Why APIs are Important](#8-why-apis-are-important)
-9. [Conclusion](#9-conclusion)
-
+9. [Resources](#9-Resources)
+10. [Conclusion](#10-conclusion)
 ---
 
  # What is an Api? A Beginner's Guide
